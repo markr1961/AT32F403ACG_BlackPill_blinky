@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\AT32F403ACGU7_Blinky.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>all</name>
+      <member>
+        <project>AT32F403ACGU7_Blinky</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>AT32F403ACGU7_Blinky</project>
+        <configuration>Release</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
