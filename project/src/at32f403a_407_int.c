@@ -53,7 +53,7 @@
 /* add user code begin private variables */
 unsigned int  SysTick1mS;
 bool          bRunLoop;
-const int     LoopSize = 10;  // 10mS loop
+const int     LoopTime = 10;  // 10mS loop
 /* add user code end private variables */
 
 /* private function prototypes --------------------------------------------*/
@@ -220,7 +220,7 @@ void SysTick_Handler(void)
   
   SysTick1mS++;
   LoopTick++;
-  if (LoopTick == LoopSize)
+  if (LoopTick == LoopTime)
   {
     LoopTick = 0;
     bRunLoop = true;
