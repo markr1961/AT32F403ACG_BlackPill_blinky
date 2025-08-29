@@ -23,7 +23,7 @@ AT_START_F403A_V1
 
 ### [WeActStuio.BlackPill](https://github.com/WeActStudio/WeActStudio.BlackPill)
 AT32F403ACGU7: 240Mhz,RAM:96+128KB,ROM:256+768KB Timer x 14,SysTick x 1,RTC x 1,I2C x 3,SPI x 4,UART x 7,SDIO x 1,USBFS x 1,CAN x 2 ...
-[Artery Official website](www.arterytek.com/en/)
+[Artery Official website](https://www.arterytek.com/en/)
 
 #### WeAct Studio Official Links
 taobao: www.weactstudio.taobao.com  
@@ -64,3 +64,4 @@ red     power LED
 |  9  |  SWClk  |   SWCLK   |   3   |  PA14 |
 |  4  |   GND   |   GND     |   4   |       |
 | 15  | nRESET  |   nRST    |   5   |       |
+
